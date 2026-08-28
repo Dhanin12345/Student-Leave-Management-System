@@ -8,13 +8,21 @@ If you want to build a Student Leave Management System, I can help you with:
 2.Objectives
 
 3.Modules / features
+
 4.ER diagram & database design
+
 5.Frontend + backend code
+
 6.Login system (Student / Faculty / Admin)
+
 7.Leave application and approval workflow
-MySQL database
-Project report
-GitHub deployment
+
+8.MySQL database
+
+9.Project report
+
+10.GitHub deployment
+
 Basic modules
 
 👨‍🎓 Student
