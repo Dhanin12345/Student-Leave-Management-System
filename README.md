@@ -3,25 +3,25 @@ Full Stack Web Development
 
 If you want to build a Student Leave Management System, I can help you with:
 
-1.Project abstract
-
-2.Objectives
-
-3.Modules / features
-
-4.ER diagram & database design
-
-5.Frontend + backend code
-
-6.Login system (Student / Faculty / Admin)
-
-7.Leave application and approval workflow
-
-8.MySQL database
-
-9.Project report
-
-10.GitHub deployment
+  1.Project abstract
+  
+  2.Objectives
+  
+  3.Modules / features
+  
+  4.ER diagram & database design
+  
+  5.Frontend + backend code
+  
+  6.Login system (Student / Faculty / Admin)
+  
+  7.Leave application and approval workflow
+  
+  8.MySQL database
+  
+  9.Project report
+  
+  10.GitHub deployment
 
 Basic modules
 
