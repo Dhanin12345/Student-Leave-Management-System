@@ -16,11 +16,13 @@ GitHub deployment
 Basic modules
 
 👨‍🎓 Student
+
 Login/Register
 Apply for leave
 View leave status
 View leave history
 Cancel pending leave
+
 👨‍🏫 Faculty
 
 Login
@@ -28,6 +30,7 @@ View student leave requests
 Approve / Reject leave
 Add remarks
 View leave history
+
 👨‍💼 Admin
 
 Manage students and faculty
