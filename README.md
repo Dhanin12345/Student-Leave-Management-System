@@ -28,9 +28,13 @@ Basic modules
 👨‍🎓 Student
 
 Login/Register
+
 Apply for leave
+
 View leave status
+
 View leave history
+
 Cancel pending leave
 
 👨‍🏫 Faculty
