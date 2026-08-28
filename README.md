@@ -64,3 +64,10 @@ Basic modules
 Student → Submit Leave → Faculty Review → Approve/Reject → Student Gets Status
 
    If you're starting this as a college project, I can give you the complete Student Leave Management System with frontend, backend, database, folder structure, and step-by-step setup.
+
+RUNNING PROGRAMMING IN powershell
+    cd "C:\Users\Dhanin\Documents\antigravity\Student Leave Management System"
+    npm run build
+    npm run server
+
+    http://localhost:5000
