@@ -27,31 +27,39 @@ Basic modules
 
 👨‍🎓 Student
 
-Login/Register
-
-Apply for leave
-
-View leave status
-
-View leave history
-
-Cancel pending leave
+      1.Login/Register
+      
+      2.Apply for leave
+      
+      3.View leave status
+      
+      4.View leave history
+      
+      5.Cancel pending leave
 
 👨‍🏫 Faculty
 
-Login
-View student leave requests
-Approve / Reject leave
-Add remarks
-View leave history
+      1.Login
+      
+      2.View student leave requests
+      
+      3.Approve / Reject leave
+      
+      4.Add remarks
+      
+      5.View leave history
 
 👨‍💼 Admin
 
-Manage students and faculty
-Manage departments/classes
-View all leave records
-Generate reports
-Leave workflow
+      1.Manage students and faculty
+      
+      2.Manage departments/classes
+      
+      3.View all leave records
+      
+      4.Generate reports
+      
+      5.Leave workflow
 
 Student → Submit Leave → Faculty Review → Approve/Reject → Student Gets Status
 
