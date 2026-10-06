@@ -1,0 +1,81 @@
+================================================================================
+🎓 STUDENT LEAVE MANAGEMENT SYSTEM - HOW TO RUN & UPDATE GUIDE
+================================================================================
+
+PROJECT LOCATION:
+C:\Users\Dhanin\Documents\antigravity\Student Leave Management System
+
+--------------------------------------------------------------------------------
+METHOD 1: QUICK RUN (RECOMMENDED - ALL-IN-ONE)
+--------------------------------------------------------------------------------
+Open PowerShell or Command Prompt in the project folder and run:
+
+1. Navigate to directory:
+   cd "C:\Users\Dhanin\Documents\antigravity\Student Leave Management System"
+
+2. Start the Server:
+   npm run server
+
+3. Open in Browser:
+   http://localhost:5000
+
+(Note: Both the frontend interface and backend API run together on port 5000!)
+
+
+--------------------------------------------------------------------------------
+HOW TO UPDATE THE PROGRAMMING (APPLY CODE CHANGES):
+--------------------------------------------------------------------------------
+Whenever you modify files in the "src" folder (JSX, CSS, components, pages):
+
+1. Rebuild the frontend bundle:
+   npm run build
+
+2. Start the server:
+   npm run server
+
+   (OR run both together in one step: npm run build:start)
+
+3. Refresh your browser at:
+   http://localhost:5000
+
+
+--------------------------------------------------------------------------------
+METHOD 2: LIVE DEVELOPMENT MODE (HOT RELOAD / AUTO REFRESH)
+--------------------------------------------------------------------------------
+If you are actively coding and want changes to update automatically on save:
+
+Open TWO terminal windows:
+
+Terminal 1 (Backend API):
+   cd "C:\Users\Dhanin\Documents\antigravity\Student Leave Management System"
+   npm run server
+
+Terminal 2 (Frontend Dev Server):
+   cd "C:\Users\Dhanin\Documents\antigravity\Student Leave Management System"
+   npm run dev
+
+Open in Browser:
+   http://localhost:3000
+(Vite will automatically proxy all /api requests to port 5000!)
+
+
+--------------------------------------------------------------------------------
+DEFAULT LOGIN CREDENTIALS
+--------------------------------------------------------------------------------
+1. Administrator:
+   Email:    admin@college.edu
+   Password: password123
+   Features: Full system control, students/faculty management, reports, departments
+
+2. Faculty / Teacher:
+   Email:    faculty@college.edu
+   Password: password123
+   Features: View pending leave requests, approve/reject with remarks, student history
+
+3. Student:
+   Email:    student@college.edu
+   Password: password123
+   Features: Apply for leave, upload medical/academic certs, check status, cancel
+
+(You can also use the 1-click Quick Login demo buttons on the Login page!)
+================================================================================

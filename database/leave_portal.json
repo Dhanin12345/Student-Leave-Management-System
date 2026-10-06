@@ -1,0 +1,467 @@
+{
+  "departments": [
+    {
+      "id": 1,
+      "name": "Computer Science",
+      "code": "CSE",
+      "description": "Department of Computer Science & Engineering",
+      "created_at": "2026-01-10 09:00:00"
+    },
+    {
+      "id": 2,
+      "name": "Electronics",
+      "code": "ECE",
+      "description": "Department of Electronics & Communication",
+      "created_at": "2026-01-10 09:00:00"
+    },
+    {
+      "id": 3,
+      "name": "Mechanical",
+      "code": "MECH",
+      "description": "Department of Mechanical Engineering",
+      "created_at": "2026-01-10 09:00:00"
+    },
+    {
+      "id": 4,
+      "name": "Civil",
+      "code": "CIVIL",
+      "description": "Department of Civil Engineering",
+      "created_at": "2026-01-10 09:00:00"
+    }
+  ],
+  "classes": [
+    {
+      "id": 1,
+      "department_id": 1,
+      "name": "CSE - 3rd Year",
+      "section": "A",
+      "batch_year": "2023-2027",
+      "created_at": "2026-01-10 09:00:00"
+    },
+    {
+      "id": 2,
+      "department_id": 1,
+      "name": "CSE - 3rd Year",
+      "section": "B",
+      "batch_year": "2023-2027",
+      "created_at": "2026-01-10 09:00:00"
+    },
+    {
+      "id": 3,
+      "department_id": 1,
+      "name": "CSE - 4th Year",
+      "section": "A",
+      "batch_year": "2022-2026",
+      "created_at": "2026-01-10 09:00:00"
+    },
+    {
+      "id": 4,
+      "department_id": 1,
+      "name": "CSE - 2nd Year",
+      "section": "A",
+      "batch_year": "2024-2028",
+      "created_at": "2026-01-10 09:00:00"
+    },
+    {
+      "id": 5,
+      "department_id": 2,
+      "name": "ECE - 3rd Year",
+      "section": "A",
+      "batch_year": "2023-2027",
+      "created_at": "2026-01-10 09:00:00"
+    },
+    {
+      "id": 6,
+      "department_id": 2,
+      "name": "ECE - 4th Year",
+      "section": "A",
+      "batch_year": "2022-2026",
+      "created_at": "2026-01-10 09:00:00"
+    },
+    {
+      "id": 7,
+      "department_id": 3,
+      "name": "MECH - 3rd Year",
+      "section": "A",
+      "batch_year": "2023-2027",
+      "created_at": "2026-01-10 09:00:00"
+    },
+    {
+      "id": 8,
+      "department_id": 4,
+      "name": "CIVIL - 3rd Year",
+      "section": "A",
+      "batch_year": "2023-2027",
+      "created_at": "2026-01-10 09:00:00"
+    }
+  ],
+  "admins": [
+    {
+      "id": 1,
+      "name": "Dhanin T",
+      "email": "admin@college.edu",
+      "password": "password123",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=AdminDhanin",
+      "role": "admin",
+      "created_at": "2026-01-10 09:00:00"
+    }
+  ],
+  "faculty": [
+    {
+      "id": 1,
+      "name": "Dr. Robert Vance",
+      "email": "robert.vance@college.edu",
+      "password": "password123",
+      "department_id": 1,
+      "phone": "+1 555-0101",
+      "designation": "Professor & Head of Department",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Robert",
+      "role": "faculty",
+      "created_at": "2026-01-10 09:00:00"
+    },
+    {
+      "id": 2,
+      "name": "Prof. Sarah Jenkins",
+      "email": "faculty@college.edu",
+      "password": "password123",
+      "department_id": 1,
+      "phone": "+1 555-0102",
+      "designation": "Associate Professor",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah",
+      "role": "faculty",
+      "created_at": "2026-01-10 09:00:00"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Michael Chang",
+      "email": "michael.chang@college.edu",
+      "password": "password123",
+      "department_id": 2,
+      "phone": "+1 555-0103",
+      "designation": "Professor",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Michael",
+      "role": "faculty",
+      "created_at": "2026-01-10 09:00:00"
+    },
+    {
+      "id": 4,
+      "name": "Prof. Emily Watson",
+      "email": "emily.watson@college.edu",
+      "password": "password123",
+      "department_id": 3,
+      "phone": "+1 555-0104",
+      "designation": "Assistant Professor",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Emily",
+      "role": "faculty",
+      "created_at": "2026-01-10 09:00:00"
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "name": "Alex Morgan",
+      "register_no": "CS2023001",
+      "email": "student@college.edu",
+      "password": "password123",
+      "department_id": 1,
+      "class_id": 1,
+      "advisor_id": 2,
+      "phone": "+1 555-0201",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alex",
+      "role": "student",
+      "created_at": "2026-01-10 09:00:00"
+    },
+    {
+      "id": 2,
+      "name": "Jessica Chen",
+      "register_no": "CS2023002",
+      "email": "jessica.chen@college.edu",
+      "password": "password123",
+      "department_id": 1,
+      "class_id": 1,
+      "advisor_id": 2,
+      "phone": "+1 555-0202",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Jessica",
+      "role": "student",
+      "created_at": "2026-01-10 09:00:00"
+    },
+    {
+      "id": 3,
+      "name": "David Miller",
+      "register_no": "CS2023003",
+      "email": "david.miller@college.edu",
+      "password": "password123",
+      "department_id": 1,
+      "class_id": 2,
+      "advisor_id": 1,
+      "phone": "+1 555-0203",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=David",
+      "role": "student",
+      "created_at": "2026-01-10 09:00:00"
+    },
+    {
+      "id": 4,
+      "name": "Sophia Martinez",
+      "register_no": "EC2023001",
+      "email": "sophia.martinez@college.edu",
+      "password": "password123",
+      "department_id": 2,
+      "class_id": 5,
+      "advisor_id": 3,
+      "phone": "+1 555-0204",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sophia",
+      "role": "student",
+      "created_at": "2026-01-10 09:00:00"
+    },
+    {
+      "id": 5,
+      "name": "James Wilson",
+      "register_no": "ME2023001",
+      "email": "james.wilson@college.edu",
+      "password": "password123",
+      "department_id": 3,
+      "class_id": 7,
+      "advisor_id": 4,
+      "phone": "+1 555-0205",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=James",
+      "role": "student",
+      "created_at": "2026-01-10 09:00:00"
+    },
+    {
+      "id": 6,
+      "name": "Dhanin T",
+      "register_no": "25CSL02",
+      "email": "dhanin.t2006@gmail.com",
+      "password": "25csl02",
+      "department_id": 1,
+      "class_id": 1,
+      "advisor_id": 1,
+      "phone": "+919994743056",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Dhanin%20T",
+      "role": "student",
+      "created_at": "2026-08-10 04:53:59"
+    }
+  ],
+  "leave_types": [
+    {
+      "id": 1,
+      "name": "Sick Leave",
+      "code": "SICK",
+      "max_days_per_year": 15,
+      "requires_document": true,
+      "description": "Leave due to illness or medical reasons",
+      "created_at": "2026-01-10 09:00:00"
+    },
+    {
+      "id": 2,
+      "name": "Casual Leave",
+      "code": "CASUAL",
+      "max_days_per_year": 5,
+      "requires_document": false,
+      "description": "Casual leave for personal work",
+      "created_at": "2026-01-10 09:00:00"
+    },
+    {
+      "id": 3,
+      "name": "Emergency Leave",
+      "code": "EMERGENCY",
+      "max_days_per_year": 7,
+      "requires_document": true,
+      "description": "Emergency leave for family emergencies",
+      "created_at": "2026-01-10 09:00:00"
+    },
+    {
+      "id": 4,
+      "name": "Academic Leave",
+      "code": "ACADEMIC",
+      "max_days_per_year": 10,
+      "requires_document": false,
+      "description": "Leave for academic events, conferences, competitions",
+      "created_at": "2026-01-10 09:00:00"
+    }
+  ],
+  "leave_requests": [
+    {
+      "id": 1,
+      "student_id": 1,
+      "leave_type_id": 1,
+      "start_date": "2026-08-12",
+      "end_date": "2026-08-14",
+      "total_days": 3,
+      "reason": "High fever and doctor advised 3 days complete rest.",
+      "document_url": "medical_certificate_alex.pdf",
+      "status": "Rejected",
+      "applied_at": "2026-08-10 08:30:00",
+      "remarks": "Rejected due to invalid dates/reasons.",
+      "reviewed_by": 2,
+      "reviewed_at": "2026-08-10 04:57:08"
+    },
+    {
+      "id": 2,
+      "student_id": 2,
+      "leave_type_id": 2,
+      "start_date": "2026-08-05",
+      "end_date": "2026-08-06",
+      "total_days": 2,
+      "reason": "Attending elder sister's wedding ceremony.",
+      "document_url": null,
+      "status": "Approved",
+      "applied_at": "2026-08-01 10:15:00",
+      "remarks": "Approved. Make up for missed classes upon return.",
+      "reviewed_by": 2,
+      "reviewed_at": "2026-08-02 14:20:00"
+    },
+    {
+      "id": 3,
+      "student_id": 3,
+      "leave_type_id": 4,
+      "start_date": "2026-08-15",
+      "end_date": "2026-08-17",
+      "total_days": 3,
+      "reason": "Representing college at Inter-College Hackathon 2026.",
+      "document_url": "hackathon_invite.pdf",
+      "status": "Approved",
+      "applied_at": "2026-08-04 09:00:00",
+      "remarks": "All the best for the competition!",
+      "reviewed_by": 1,
+      "reviewed_at": "2026-08-04 11:30:00"
+    },
+    {
+      "id": 4,
+      "student_id": 4,
+      "leave_type_id": 1,
+      "start_date": "2026-07-20",
+      "end_date": "2026-07-22",
+      "total_days": 3,
+      "reason": "Severe dental infection.",
+      "document_url": "doctor_note.pdf",
+      "status": "Rejected",
+      "applied_at": "2026-07-18 16:45:00",
+      "remarks": "Medical document submitted was unreadable. Please resubmit.",
+      "reviewed_by": 3,
+      "reviewed_at": "2026-07-19 09:10:00"
+    },
+    {
+      "id": 5,
+      "student_id": 5,
+      "leave_type_id": 3,
+      "start_date": "2026-08-18",
+      "end_date": "2026-08-19",
+      "total_days": 2,
+      "reason": "Family emergency traveling out of town.",
+      "document_url": null,
+      "status": "Pending",
+      "applied_at": "2026-08-09 11:20:00",
+      "remarks": null,
+      "reviewed_by": null,
+      "reviewed_at": null
+    },
+    {
+      "id": 6,
+      "student_id": 6,
+      "leave_type_id": 1,
+      "start_date": "2007-02-05",
+      "end_date": "2007-02-20",
+      "total_days": 16,
+      "reason": "ugu",
+      "document_url": "AADHAAR NUMBER.jpg",
+      "status": "Rejected",
+      "applied_at": "2026-08-10 04:56:32",
+      "remarks": "Rejected due to invalid dates/reasons.",
+      "reviewed_by": 2,
+      "reviewed_at": "2026-08-10 04:57:04"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "user_role": "student",
+      "title": "Leave Request Submitted",
+      "message": "Your Sick Leave application (#1) for 3 days has been submitted successfully.",
+      "type": "info",
+      "is_read": true,
+      "created_at": "2026-08-10 08:30:00"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "user_role": "student",
+      "title": "Leave Request Approved",
+      "message": "Your Casual Leave application for 2 days has been approved by Prof. Sarah Jenkins.",
+      "type": "success",
+      "is_read": false,
+      "created_at": "2026-08-02 14:20:00"
+    },
+    {
+      "id": 3,
+      "user_id": 2,
+      "user_role": "faculty",
+      "title": "New Leave Request",
+      "message": "Alex Morgan has submitted a new Sick Leave application for 3 days.",
+      "type": "info",
+      "is_read": false,
+      "created_at": "2026-08-10 08:30:00"
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "user_role": "admin",
+      "title": "System Alert",
+      "message": "New student leave applications pending review: 2 requests.",
+      "type": "warning",
+      "is_read": false,
+      "created_at": "2026-08-10 09:00:00"
+    },
+    {
+      "id": 5,
+      "user_id": 6,
+      "user_role": "student",
+      "title": "Welcome to Leave Portal",
+      "message": "Account created successfully. Your Register No is 25CSL02.",
+      "type": "success",
+      "is_read": false,
+      "created_at": "2026-08-10 04:53:59"
+    },
+    {
+      "id": 6,
+      "user_id": 6,
+      "user_role": "student",
+      "title": "Leave Application Submitted",
+      "message": "Your Sick Leave request for 16 day(s) starting 2007-02-05 has been submitted.",
+      "type": "info",
+      "is_read": false,
+      "created_at": "2026-08-10 04:56:32"
+    },
+    {
+      "id": 7,
+      "user_id": 1,
+      "user_role": "faculty",
+      "title": "New Leave Application",
+      "message": "Dhanin T (25CSL02) submitted a Sick Leave request (16 days).",
+      "type": "info",
+      "is_read": false,
+      "created_at": "2026-08-10 04:56:32"
+    },
+    {
+      "id": 8,
+      "user_id": 6,
+      "user_role": "student",
+      "title": "Leave Application Rejected",
+      "message": "Your Sick Leave request has been rejected. Remark: Rejected due to invalid dates/reasons.",
+      "type": "danger",
+      "is_read": false,
+      "created_at": "2026-08-10 04:57:04"
+    },
+    {
+      "id": 9,
+      "user_id": 1,
+      "user_role": "student",
+      "title": "Leave Application Rejected",
+      "message": "Your Sick Leave request has been rejected. Remark: Rejected due to invalid dates/reasons.",
+      "type": "danger",
+      "is_read": false,
+      "created_at": "2026-08-10 04:57:08"
+    }
+  ]
+}
